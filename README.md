@@ -1,2 +1,2 @@
-# useLasted
+# lasted
 Created with CodeSandbox
