@@ -4,7 +4,7 @@ import { formatDistance } from 'date-fns'
 import './styles.css'
 
 const D_DAYS = [
-  '2022/7/18 23:13',
+  '2022/7/19 01:41',
 ]
 
 const getLasted = () => {
