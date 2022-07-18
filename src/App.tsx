@@ -1,9 +1,14 @@
 import { useEffect, useState } from 'react'
 import { formatDistance } from 'date-fns'
+
 import './styles.css'
 
+const D_DAYS = [
+  '2022/7/18 23:13',
+]
+
 const getLasted = () => {
-  const startAt = new Date('2022/7/17 20:25')
+  const startAt = new Date(D_DAYS[0])
 
   return formatDistance(new Date(), startAt)
 }
@@ -36,7 +41,7 @@ const Whys = () => {
   const whys = [
     'No MS #Edge, so no #NSFW contents',
     'No Safari, no saved files',
-    'No #Paids',
+    'No #Paids, no #FreeAcademics',
   ]
 
   return (
@@ -48,7 +53,7 @@ const Whys = () => {
   )
 }
 
-export default function App() {
+export default function App () {
   return (
     <div className="App">
       <Lasted />
