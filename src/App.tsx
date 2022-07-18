@@ -5,10 +5,11 @@ import './styles.css'
 
 const D_DAYS = [
   '2022/7/19 01:41',
+  '2022/7/19 03:01',
 ]
 
 const getLasted = () => {
-  const startAt = new Date(D_DAYS[0])
+  const startAt = new Date(D_DAYS[D_DAYS.length - 1])
 
   return formatDistance(new Date(), startAt)
 }
