@@ -8,7 +8,7 @@ const D_DAYS = [
 ]
 
 const getLasted = () => {
-  const startAt = new Date([...D_DAYS].pop())
+  const startAt = new Date(D_DAYS[0])
 
   return formatDistance(new Date(), startAt)
 }

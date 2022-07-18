@@ -6,7 +6,7 @@ body {
   font-family: sans-serif;
   min-height: 100vh;
   max-height: 100vh;
-  background-image: url('/751400.png');
+  background-image: url('/src/assets/751400.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
