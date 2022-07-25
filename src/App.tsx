@@ -48,6 +48,7 @@ const Whys = () => {
     'No MS #Edge, so no #NSFW contents',
     'No Safari, no saved files',
     'No #Paids, no #FreeAcademics',
+    'Really, it makes me feel so tired',
   ]
 
   return (
