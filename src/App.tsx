@@ -67,7 +67,7 @@ const Whys = () => {
 
 const Wasted = () => {
   return (
-    <code class="Wasted">{`You wasted ${new Intl.NumberFormat().format(SPENT)} VND`}</code>
+    <code className="Wasted">{`You wasted ${new Intl.NumberFormat().format(SPENT)} VND`}</code>
   )
 }
 
