@@ -11,7 +11,12 @@ const D_DAYS = [
   '2022/7/21 22:23',
   '2022/7/24 20:56',
   '2022/7/25 02:10',
+  '2022/7/26 13:35',
 ]
+
+const SPENT = [
+  300
+].reduce((prev, val) => val * 1_000 + prev, 0)
 
 const getLasted = () => {
   const startAt = new Date(D_DAYS[D_DAYS.length - 1])
@@ -60,11 +65,18 @@ const Whys = () => {
   )
 }
 
+const Wasted = () => {
+  return (
+    <code>{`You wasted ${new Intl.NumberFormat().format(SPENT)} VND`}</code>
+  )
+}
+
 export default function App () {
   return (
     <div className="App">
       <Lasted />
       <Whys />
+      <Wasted />
     </div>
   )
 }
