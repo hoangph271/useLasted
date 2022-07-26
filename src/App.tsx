@@ -42,7 +42,9 @@ const Lasted = () => {
   return (
     <div className="Lasted">
       <span>You lasted</span>
-      <span style={{ fontStyle: 'italic' }}>{lasted}</span>
+      <span style={{ fontStyle: 'italic' }}>
+        {` ${lasted} `}
+      </span>
       <span>...!</span>
     </div>
   )
@@ -70,7 +72,7 @@ const Wasted = () => {
     <code className="Wasted">
       <span>You wasted</span>
       <span style={{ fontStyle: 'italic' }}>
-        {new Intl.NumberFormat().format(SPENT)}
+        {` ${new Intl.NumberFormat().format(SPENT)} `}
       </span>
       <span>VND</span>
     </code>
