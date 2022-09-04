@@ -88,7 +88,10 @@ const Whys = () => {
 const Wasted = () => {
   return (
     <code className="Wasted">
-      <a href="https://github.com/hoangph271/useLasted">
+      <a
+        href="https://github.com/hoangph271/useLasted"
+        style="color: white;"
+      >
         @source_code
       </a>
       {/* <span>You wasted</span>
