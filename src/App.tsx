@@ -87,19 +87,13 @@ const Whys = () => {
 
 const Wasted = () => {
   return (
-    <code className="Wasted">
-      <a
-        href="https://github.com/hoangph271/useLasted"
-        style="color: white;"
-      >
-        @source_code
-      </a>
-      {/* <span>You wasted</span>
-      <span style={{ fontStyle: 'italic' }}>
-        {` ${new Intl.NumberFormat().format(SPENT)} `}
-      </span>
-      <span>VND</span> */}
-    </code>
+    <a
+      className="Wasted"
+      href="https://github.com/hoangph271/useLasted"
+      style={{ color: 'white' }}
+    >
+      @source_code
+    </a>
   )
 }
 
