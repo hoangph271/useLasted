@@ -5,7 +5,7 @@ export const Whys = () => {
     // 'No Safari, no saved files',
     // 'No #Paids, no #FreeAcademics',
     'Really, it makes me feel so tired sometimes...!',
-    '🍀',
+    '🍀'
   ]
 
   return (
