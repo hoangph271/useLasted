@@ -26,6 +26,8 @@ export const D_DAYS = [
   '2022/9/04 16:50'
 ]
 
+export const IN_MS_30_DAYS = 30 * 24 * 60 * 60 * 1000
+
 export const SPENT = [
   // 300
 ].reduce((prev, val) => val * 1_000 + prev, 0)
