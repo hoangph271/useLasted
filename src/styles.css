@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
+  font-family: Monocraft, sans-serif;
   min-height: 100vh;
   max-height: 100vh;
   background-image: url('/src/assets/751400.png');
@@ -14,7 +14,7 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Monocraft, 'Courier New', Courier, monospace;
 }
 
 .App {
