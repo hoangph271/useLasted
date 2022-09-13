@@ -1,2 +1,2 @@
-# lasted
-Created with CodeSandbox
+# `useLasted()`
+Me staying clean for a while...!
