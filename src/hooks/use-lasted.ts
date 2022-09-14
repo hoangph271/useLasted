@@ -7,14 +7,18 @@ const startAt = new Date(D_DAYS[D_DAYS.length - 1])
 const getLasted = () => {
   return formatDistance(new Date(), startAt)
 }
+const getProgress = () => {
+  return (Date.now() - startAt.getTime()) / IN_MS_30_DAYS * 100
+}
 
 export const useLasted = () => {
   const [lasted, setLasted] = useState(getLasted())
-  const progress = (Date.now() - startAt.getTime()) / IN_MS_30_DAYS * 100
+  const [progress, setProgress] = useState(getProgress())
 
   useEffect(() => {
     const timer = setInterval(() => {
       setLasted(getLasted())
+      setProgress(getProgress())
     }, 1000)
 
     return () => {
