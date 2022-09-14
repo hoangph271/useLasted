@@ -26,5 +26,5 @@ export const useLasted = () => {
     }
   }, [])
 
-  return [lasted, progress.toFixed(3)]
+  return [lasted, progress.toFixed(4)]
 }
