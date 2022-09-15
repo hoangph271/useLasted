@@ -18,8 +18,6 @@ body {
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
   border-radius: 0.4rem;
   max-width: calc(100vw - 0.8rem);
   --text-color: lightgray;
