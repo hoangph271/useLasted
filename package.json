@@ -1,6 +1,7 @@
 {
   "name": "uselasted",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
